@@ -7,7 +7,7 @@
 
     "tests":"npx playwright test",
    "test:specific": "npx playwright test --grep playwright-intro.spec.js",
-   "test:tag":"npx playwright test --grep @google",
+   "test:tag":"npx playwright test --grep @youtube2",
     "report":"npx palywright show-report"
   },
   "keywords": [],
