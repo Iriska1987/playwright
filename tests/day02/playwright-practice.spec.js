@@ -18,5 +18,10 @@ await searchBox.press("Enter");
 
 await page.waitForTimeout(3000);
 
+const firstVideo=page.locator("(//a[@id='video-title'])[1]");//first video title
+
+await firstVideo.click();
+
+await page.waitForTimeout(10000);
 
 });
