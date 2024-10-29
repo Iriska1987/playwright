@@ -31,7 +31,7 @@ test.afterEach(async({page}) =>{
     expect(actualUrl).toContain("cydeo");
   });
 
-  test("Click A/B testing link @group2-3", async ({page}) => {
+  test("Click A/B testing link @group2", async ({page}) => {
 
     //page.locator("text='A/B Testing'")
     let abTestingLink=page.getByText("A/B Testing");
