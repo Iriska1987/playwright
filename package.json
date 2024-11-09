@@ -6,8 +6,8 @@
   "scripts": {
 
     "tests":"npx playwright test",
-   "test:specific": "npx playwright test --grep playwright-intro.spec.js",
-   "test:tag":"npx playwright test --grep @group2",
+   "test:specific": "npx playwright test --grep sep-login.spec.js",
+   "test:tag":"npx playwright test --grep @sep",
     "report":"npx palywright show-report"
   },
   "keywords": [],
